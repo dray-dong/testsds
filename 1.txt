@@ -1,0 +1,39 @@
+
+> tttt@1.0.0 build /Users/ray/studyDemo/dong/tttt
+> webpack --config webpack.config.js
+
+Hash: 6bc76007fdc6a7db5660
+Version: webpack 4.42.1
+Time: 688ms
+Built at: 2020-04-02 16:23:14
+                                          Asset       Size       Chunks                         Chunk Names
+  app-vendor/app-vendor.6bc76007fdc6a7db5660.js    245 KiB   app-vendor  [emitted] [immutable]  app-vendor
+               app/app.6bc76007fdc6a7db5660.css   36 bytes          app  [emitted] [immutable]  app
+                app/app.6bc76007fdc6a7db5660.js   7.35 KiB          app  [emitted] [immutable]  app
+                                 app/index.html  494 bytes               [emitted]              
+data-vendor/data-vendor.6bc76007fdc6a7db5660.js    245 KiB  data-vendor  [emitted] [immutable]  data-vendor
+             data/data.6bc76007fdc6a7db5660.css   36 bytes         data  [emitted] [immutable]  data
+              data/data.6bc76007fdc6a7db5660.js   7.38 KiB         data  [emitted] [immutable]  data
+                                data/index.html  500 bytes               [emitted]              
+Entrypoint app = app-vendor/app-vendor.6bc76007fdc6a7db5660.js app/app.6bc76007fdc6a7db5660.css app/app.6bc76007fdc6a7db5660.js
+Entrypoint data = data-vendor/data-vendor.6bc76007fdc6a7db5660.js data/data.6bc76007fdc6a7db5660.css data/data.6bc76007fdc6a7db5660.js
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {app-vendor} {data-vendor} [built]
+[./src-data/data.js] 96 bytes {data} [built]
+[./src-data/index.css] 39 bytes {data} [built]
+[./src/index.css] 39 bytes {app} [built]
+[./src/index.js] 83 bytes {app} [built]
+    + 6 hidden modules
+Child HtmlWebpackCompiler:
+     2 assets
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    Entrypoint HtmlWebpackPlugin_1 = __child-HtmlWebpackPlugin_1
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src-data/index.html] 546 bytes {HtmlWebpackPlugin_1} [built]
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 546 bytes {HtmlWebpackPlugin_0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src-data/index.css:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./src-data/index.css] 269 bytes {mini-css-extract-plugin} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/index.css:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./src/index.css] 269 bytes {mini-css-extract-plugin} [built]
+        + 1 hidden module
